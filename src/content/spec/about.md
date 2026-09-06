@@ -21,4 +21,4 @@
 
 我的 GitHub 主页：
 
-::github{repo="railgun618/railgun618.github.io"}
+::github{repo="fy-sec/fy-sec.github.io"}

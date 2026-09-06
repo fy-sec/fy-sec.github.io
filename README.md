@@ -1,4 +1,4 @@
-# Railgun618's Security Lab
+# fy-sec's Security Lab
 
 一个用于记录个人网络安全学习过程的博客，主要包含三个方向：
 
@@ -6,7 +6,7 @@
 - 靶场渗透测试
 - SRC 漏洞挖掘与复盘
 
-线上地址：<https://railgun618.github.io>
+线上地址：<https://fy-sec.github.io>
 
 ## 内容原则
 
