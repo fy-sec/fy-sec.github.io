@@ -8,8 +8,8 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "Security Lab",
-	subtitle: "网络安全学习、靶场复现与授权漏洞研究",
+	title: "Railgun618's Security Lab",
+	subtitle: "网络安全学习 · 靶场渗透测试 · SRC漏洞挖掘",
 	lang: "zh_CN", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
 		hue: 250, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
@@ -42,6 +42,18 @@ export const siteConfig: SiteConfig = {
 export const navBarConfig: NavBarConfig = {
 	links: [
 		LinkPreset.Home,
+		{
+			name: "学习笔记",
+			url: "/archive/?category=学习笔记",
+		},
+		{
+			name: "靶场渗透",
+			url: "/archive/?category=靶场渗透",
+		},
+		{
+			name: "SRC漏洞",
+			url: "/archive/?category=SRC漏洞",
+		},
 		LinkPreset.Archive,
 		LinkPreset.About,
 		{
@@ -54,8 +66,8 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/demo-avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "待填写",
-	bio: "网络安全学习、靶场复现与授权漏洞研究记录",
+	name: "railgun618",
+	bio: "网络安全学习者 | 靶场渗透测试 | SRC漏洞挖掘",
 	links: [
 		{
 			name: "GitHub",

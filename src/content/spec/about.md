@@ -1,9 +1,24 @@
-# About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+# 关于本站
 
-::github{repo="saicaca/fuwari"}
+这是一个用于记录网络安全学习过程的个人博客，主要包含三个方向：
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+- **学习笔记**：网络、系统、Web、代码审计、工具使用和认证学习记录。
+- **靶场渗透**：在授权靶场或本地实验环境中完成的渗透测试过程记录。
+- **SRC漏洞**：在获得授权的前提下，对漏洞进行挖掘、验证、报告和复盘。
+
+## 内容原则
+
+本站只发布合法授权的学习与测试内容：
+
+- 不公开未授权目标的真实信息。
+- 不公开客户数据、个人隐私或完整凭证。
+- 不公开未修复、未过保密期或厂商不允许披露的漏洞。
+- 不公开可用于直接攻击的自动化工具和未授权利用细节。
+
+## 技术栈
+
+本站由 Astro 构建，使用 Fuwari 主题，托管在 GitHub Pages。
+
+我的 GitHub 主页：
+
+::github{repo="railgun618"}
