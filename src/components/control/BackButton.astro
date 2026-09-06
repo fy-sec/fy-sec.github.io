@@ -1,0 +1,22 @@
+---
+import { Icon } from "astro-icon/components";
+
+interface Props {
+	class?: string;
+}
+
+const className = Astro.props.class;
+---
+
+<button
+	type="button"
+	aria-label="返回上一页"
+	class:list={[
+		"btn-plain scale-animation rounded-lg h-11 px-4 font-bold text-sm whitespace-nowrap",
+		className,
+	]}
+	onclick="if (document.referrer) { history.back(); } else { window.location.href = '/'; }"
+>
+	<Icon name="material-symbols:arrow-back-rounded" class="text-[1.25rem] mr-2" />
+	<span>返回上一页</span>
+</button>
